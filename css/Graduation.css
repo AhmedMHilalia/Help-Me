@@ -1,0 +1,342 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+
+.marg{
+    margin: 5px;
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+
+}
+.navbar-nav li a
+{
+    border: none;
+}
+.doo:hover{
+    background-color: wheat;
+
+}
+.w-75{
+    font-size: 27px;
+    font-family: bold ;
+    padding-bottom: 5px;
+}
+
+.bd-y{
+
+    padding: 75px 0 ;
+
+}
+.back-red{
+    background-color:rgb(206, 38, 38);
+    
+}
+.text-muted{
+    
+    color:   rgb(218, 216, 216) !important;
+    
+}
+.mar-cards{
+
+margin: 0px 70px;
+
+}
+.pad-left{
+
+    padding: 0 40px;
+    
+}
+
+.logo-x{
+    text-align: center;
+}
+ 
+.request{
+    text-align: center;
+    font-size: 30px  ;
+    text-transform: capitalize;
+    margin-top: -40px;
+
+    
+}
+
+.name{
+
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #e8e8e8;
+    border: 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 17px;
+    margin: 10px 0 10px 0;
+
+}
+
+.Phone{
+
+    width: 100%;
+    height: 40px;
+    background-color:#f9f9f9;
+    border-radius: 5px;
+     border: 0;
+     padding-left: 5px;
+     font-size: 17px;
+}
+
+.Location{
+
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    background-color:#f9f9f9;
+    border-radius: 5px;
+     border: 0;
+     padding-left: 5px;
+     font-size: 17px;
+
+}
+
+.message{
+
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    background-color:#f9f9f9;
+    border-radius: 5px;
+    border: 0;
+    font-size: 17px;
+    margin: 10px 0px 20px ;
+    display: block;;
+}
+
+.from-button{
+
+    width: 160px;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    background-color:#4e4e4e ;
+    color: #fff;
+    margin:30px 0 0 500px ;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.form-item{
+    float: left;
+    width: 30%;
+    display: block;
+    line-height:40px;
+    text-align: center;
+    
+
+
+}
+
+
+.form-item-text{
+
+    display: block;
+    text-align: center;
+}
+.form-item.margin{
+
+    margin: 0 5%;
+}
+.form-item-title{
+    color: #7ba7ff;
+    font-size: 15px;
+    
+}
+.form-item-text{
+    
+    font-size: 25px ;
+    margin-top: 5px;
+    text-transform: capitalize;
+    
+}
+
+.form-item-input{
+
+
+  margin:auto;
+  width: 65%;
+  margin-top: 30px;
+  
+}
+
+.btn-request{
+
+    width: 210px;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    background-color:#756f6f  ;
+    color: #fff;
+    margin:-100px 0px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.file{
+  
+    border-radius: 5px;
+    font-size: 15px;
+    margin: -72px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background: #e74c3c;
+    display: inline-block;
+    padding: 14px 10px;
+    width: 49%;
+    height: 40px;
+    text-align: center;
+}
+.inputFile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    
+}
+.inputFile + label {
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background: #e74c3c;
+    display: inline-block;
+    padding: 14px 10px;
+    border-radius: 5px;
+    width: 49%;
+    height: 40px;
+    text-align: center;
+    
+}
+
+.inputFile:focus + label,
+.inputFile + label:hover {
+    background-color: #c0392b;
+}
+
+.file:focus + label,
+.file + label:hover {
+    background-color: #c0392b;
+}
+.inputFile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+
+.fl-sec{
+    width: 100%;
+}
+.fl-sec .file{
+    float: left;
+}
+.fl-sec label{
+    float: right;
+    height: 48px;
+
+}
+ 
+
+/*footer section*/
+
+.footer{
+
+  
+    background-color:rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 60px 0 ;
+}
+
+
+.footer-list  {
+
+
+   list-style: none; /*علي شان نشيل النقط السوده الموجوده بجانب الليست*/
+   margin-top: 30px;
+   
+} 
+
+.footer-list li{
+    
+    display: inline-block;
+    
+}
+
+.footer-list li a {
+    
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(141, 137, 137) ;
+    color:crimson;
+    margin: 0 5px;
+    border-radius: 5px; /*وضع شكل للزر ملفوف من الطراف */
+}
+
+.footer-list li a i {
+
+    line-height: 40px; /*في منتصف الاب*/
+
+
+
+}
+
+.footer-title{
+
+    color: rgba(0,0,0,0.7);
+    margin-top: 10px;
+    text-transform: uppercase ; /*جعل كل الحروف كبيتل*/
+    font-size: 15px;
+    
+} 
+
+.footer-title-color{
+
+    color: white; 
+    
+}
+ 
+.wid img{
+    width: 100%;
+    height: 800px;
+    /* padding: 0px 128px; */
+    margin: auto;
+    background-size: contain;
+
+    
+}
+
+ .dad-form{
+    
+     width: 65%;
+     margin: auto;
+
+
+ }
+
+.line{
+    text-decoration: none;
+    
+}
